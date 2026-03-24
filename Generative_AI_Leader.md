@@ -14,8 +14,8 @@ The 90-minute exam consists of 50-60 multiple-choice questions.
 Understand the differences between **AI** (broad field), **ML** (AI subset using data to learn), and **Generative AI** (ML that creates new content).
 
 **Model Types**
-- **Large Language Models** (LLMs): Foundation Models specialized in processing and generating human language (text and code).
 - **Foundation Models** (FMs): Massive, versatile models trained on broad data, adaptable for many tasks (Gemini is an example).
+- **Large Language Models** (LLMs): Foundation Models specialized in processing and generating human language (text and code).
 - **Multimodal Models**: Models that can understand and generate content across multiple data types (e.g., text, image, video).
 - **Diffusion Models**: Generative models primarily used for creating high-quality, realistic images and video.
 
