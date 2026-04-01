@@ -57,11 +57,18 @@ Understand the differences between **AI** (broad field), **ML** (AI subset using
 **Key Google Cloud Tools** 
 - **Vertex AI**: The unified Google Cloud platform for building, deploying, and managing the entire ML/Gen AI lifecycle.
 - **Model Garden**: A catalog on Vertex AI offering discoverable, customizable models from Google, open-source, and third parties.
-- **Generative AI Studio**: A no-code/low-code interface within Vertex AI for rapid experimentation, prototyping, and customizing models.
-- **APIs**
+- **Vertex AI Studio**: An enterprise-grade, collaborative no-code/low-code interface within Vertex AI for building, deploying, and managing production-ready Gen AI apps safely.
+- **Google AI Studio**: A web-based, low-code prototyping environment to quickly experiment with Gemini models (distinct from the enterprise Vertex AI Studio).
+- **NotebookLM**: An AI-powered research and writing assistant that allows users to ground the AI in their own uploaded documents. Note: It is featured prominently in the official learning path's "Try It" activities for hands-on experience, but the exam itself focuses more heavily on enterprise Cloud services (like Vertex AI).
+- **Custom Gems (Gemini Advanced)**: Personalized, specialized versions of Gemini that allow users to save specific instructions, personas, and workflows for recurring tasks without re-prompting.
+- **Gemini Enterprise (for Google Workspace)**: An enterprise-grade offering that embeds Gemini directly into Workspace apps (Docs, Gmail, Sheets, etc.) while ensuring customer data and prompts are kept private and not used to train Google's models.
+- **BigQuery ML**: Enables users to perform machine learning directly in BigQuery using standard SQL, playing a critical role in data preparation and analytics for AI initiatives.
+- **APIs & Solutions**
     - **Speech-to-Text**: Converts spoken audio into written text.
     - **Cloud Vision**: Analyzes images to detect objects, faces, and text (OCR).
     - **Document AI**: Extracts structured data, such as key-value pairs, from unstructured documents (e.g., forms, invoices).
+    - **Google Cloud Contact Center as a Service (CCaaS)**: A complete, AI-first customer experience platform that leverages Contact Center AI (CCAI) for conversational virtual agents, real-time Agent Assist, and comprehensive conversation insights.
+    - **Vertex AI Search**: A managed service that enables organizations to easily build AI-powered search engines over their own unstructured and structured data, providing out-of-the-box Retrieval-Augmented Generation (RAG) capabilities.
 
 ### 3. Techniques to Improve Model Output (20% of exam)
 
@@ -96,6 +103,7 @@ Understand the differences between **AI** (broad field), **ML** (AI subset using
 
 **Responsible AI**: The practice of developing and deploying AI systems ethically, fairly, and securely.
 - **Google's Secure AI Framework (SAIF)**: A set of guidelines and practices to manage risk and protect AI systems from malicious attacks and misuse throughout the lifecycle.
+- **Enterprise Data Privacy**: Google's commitment that customer data submitted to enterprise services (like Vertex AI) is *not* used to train Google's foundation models.
 - **Managing Change**: Preparing the organization (people, processes) for the new AI-driven workflow; includes training, clear communication, and mitigating resistance.
 - **Addressing bias and fairness**: Actively monitoring and mitigating systemic prejudice or unfair outcomes that could result from biased training data or model design.
 - **Ensuring transparency**: Making the AI system's operation and limitations clear and understandable to users and stakeholders (Explainability).
@@ -106,3 +114,9 @@ Understand the differences between **AI** (broad field), **ML** (AI subset using
 - **Reasoning loop**: The iterative process (e.g., ReAct framework) where the agent thinks (plans), acts (calls a tool), and observes (receives feedback) to complete a goal.
 - **Tools**: External resources or APIs (e.g., databases, search engine, calculator) the agent can call and use to execute actions or retrieve information.
 - **Use**: Automate complex tasks by breaking down multi-step processes into subtasks, calling relevant tools, and synthesizing the results to achieve a high-level objective (e.g., automated trip planning, customer service triage).
+
+**Agent Types**:
+- **Conversational agent**: Designed for natural language interaction, capable of using multimodal inputs (like voice, gestures, or facial expressions) to communicate fluidly with users.
+- **Virtual assistant agent**: A type of conversational agent specifically focused on helping users complete discrete tasks or routine requests (e.g., scheduling, customer support).
+- **Workflow agent**: Focused on autonomy and process execution, evaluating complex requests to formulate and execute multi-step tool calls across external systems.
+- **Creative agent**: Specialized in acting autonomously to generate novel content (such as text, images, or code) over multi-step workflows rather than executing rigid enterprise workflows.
