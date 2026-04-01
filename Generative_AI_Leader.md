@@ -54,6 +54,18 @@ Understand the differences between **AI** (broad field), **ML** (AI subset using
 - **Agents**: AI entities (built on models) that use tools and a reasoning loop to automate complex, multi-step tasks.
 - **Applications**: End-user products or features that utilize Gen AI models to deliver a specific function (e.g., a chatbot, a content summarizer).
 
+**Deep Dive: Agents**
+- **Model**: The core Large Language Model (LLM) that acts as the agent's "brain" for understanding and generating language.
+- **Reasoning loop**: The iterative process (e.g., ReAct framework) where the agent thinks (plans), acts (calls a tool), and observes (receives feedback) to complete a goal.
+- **Tools**: External resources or APIs (e.g., databases, search engine, calculator) the agent can call and use to execute actions or retrieve information.
+- **Use**: Automate complex tasks by breaking down multi-step processes into subtasks, calling relevant tools, and synthesizing the results to achieve a high-level objective (e.g., automated trip planning, customer service triage).
+
+**Agent Types**:
+- **Conversational agent**: Designed for natural language interaction, capable of using multimodal inputs (like voice, gestures, or facial expressions) to communicate fluidly with users.
+- **Virtual assistant agent**: A type of conversational agent specifically focused on helping users complete discrete tasks or routine requests (e.g., scheduling, customer support).
+- **Workflow agent**: Focused on autonomy and process execution, evaluating complex requests to formulate and execute multi-step tool calls across external systems.
+- **Creative agent**: Specialized in acting autonomously to generate novel content (such as text, images, or code) over multi-step workflows rather than executing rigid enterprise workflows.
+
 **Key Google Cloud Tools** 
 - **Vertex AI**: The unified Google Cloud platform for building, deploying, and managing the entire ML/Gen AI lifecycle.
 - **Model Garden**: A catalog on Vertex AI offering discoverable, customizable models from Google, open-source, and third parties.
@@ -108,15 +120,3 @@ Understand the differences between **AI** (broad field), **ML** (AI subset using
 - **Addressing bias and fairness**: Actively monitoring and mitigating systemic prejudice or unfair outcomes that could result from biased training data or model design.
 - **Ensuring transparency**: Making the AI system's operation and limitations clear and understandable to users and stakeholders (Explainability).
 - **Protecting privacy**: Implementing measures like data anonymization, pseudonymization, and strong governance to safeguard user data and comply with regulations.
-
-**Agents**: Automated, reasoning entities built on models for complex automation.
-- **Model**: The core Large Language Model (LLM) that acts as the agent's "brain" for understanding and generating language.
-- **Reasoning loop**: The iterative process (e.g., ReAct framework) where the agent thinks (plans), acts (calls a tool), and observes (receives feedback) to complete a goal.
-- **Tools**: External resources or APIs (e.g., databases, search engine, calculator) the agent can call and use to execute actions or retrieve information.
-- **Use**: Automate complex tasks by breaking down multi-step processes into subtasks, calling relevant tools, and synthesizing the results to achieve a high-level objective (e.g., automated trip planning, customer service triage).
-
-**Agent Types**:
-- **Conversational agent**: Designed for natural language interaction, capable of using multimodal inputs (like voice, gestures, or facial expressions) to communicate fluidly with users.
-- **Virtual assistant agent**: A type of conversational agent specifically focused on helping users complete discrete tasks or routine requests (e.g., scheduling, customer support).
-- **Workflow agent**: Focused on autonomy and process execution, evaluating complex requests to formulate and execute multi-step tool calls across external systems.
-- **Creative agent**: Specialized in acting autonomously to generate novel content (such as text, images, or code) over multi-step workflows rather than executing rigid enterprise workflows.
